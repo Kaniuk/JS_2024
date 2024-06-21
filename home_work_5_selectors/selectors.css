@@ -93,3 +93,17 @@
     border: 2px solid red;
     padding: 10px;
 }
+
+thead {
+    background-color: gray;
+}
+
+#table td {
+    background-color: lightgray;
+    border-radius: 50px;
+}
+
+#table td,
+.table_2 th {
+    padding: 10px;
+}
