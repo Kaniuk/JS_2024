@@ -1,0 +1,102 @@
+.cat {
+    width: 200px;
+    height: 200px;
+    border: 1px solid brown;
+    border-radius: 50%;
+    background-image: url(/images/1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.task_2 {
+    height: 300px;
+    overflow: auto;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.text {
+    width: 60%;
+    margin: 10px;
+
+}
+
+.image_1 {
+    margin-top: 25px;
+    background-image: url(images/HTML5.png);
+    background-size: 100%;
+    width: 120px;
+    height: 120px;
+    border: 1px solid darkblue;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 0;
+
+}
+
+.task_3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.task_3 .container {
+    background-image: url(/images/затемненний.png);
+    width: 80%;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.task_3 h1 {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.blocks {
+    display: flex;
+
+    width: 65%;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.block {
+    width: 35%;
+    color: #fff;
+}
+
+.first {
+    background-image: url(/images//1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 22px;
+}
+.second{
+    background-image: url(/images//2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 29px; 
+}
+.third {
+    background-image: url(/images//3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 22px;
+}
+.block>div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.block div:nth-child(2) {
+    text-align: justify;
+}

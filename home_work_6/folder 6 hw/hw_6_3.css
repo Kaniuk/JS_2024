@@ -1,0 +1,156 @@
+ body {
+     margin: 0 auto;
+     font-family: Corbel;
+     font-size: 24px;
+     color: #646F75;
+ }
+
+ .wrapper {
+     width: 1100px;
+     margin: 0 auto;
+ }
+
+ h1 {
+     margin-top: 0;
+     font-size: 64px;
+     color: #14931F;
+ }
+
+ header>div {
+     width: 50%;
+     text-align: center;
+     margin: auto;
+     margin-top: 100px;
+ }
+
+ header>div>p {
+     padding-bottom: 50px;
+ }
+
+ .green-button,
+ .white-button:hover,
+ .white-button:focus {
+     background-color: #14931F;
+     padding: 10px 25px;
+     border-radius: 50px;
+     border: none;
+     color: #DFDBF5;
+ }
+
+ nav {
+     text-align: center;
+ }
+
+ .nav-list {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 25px;
+     justify-content: center;
+     align-items: center;
+
+     padding-bottom: 100px;
+
+ }
+
+ nav>h2 {
+     color: #14931F;
+     margin: 70px 0;
+ }
+
+ .nav-list div {
+     width: 26%;
+     height: 110px;
+     background-color: #DFDBF5;
+     border-radius: 40px;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .nav-list a {
+     text-decoration: none;
+     color: #646F75;
+
+ }
+
+ .content {
+     background-color: #DFDBF5;
+ }
+
+ .content li {
+     font-size: 18px;
+     margin-bottom: 10px;
+ }
+
+ .blocks {
+     width: 80%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin: auto;
+     padding-bottom: 100px;
+ }
+
+ .block {
+     width: 210px;
+     background-color: #fff;
+     border-radius: 35px;
+     padding: 15px;
+
+ }
+
+ .content h2,
+ .content h3 {
+     text-align: center;
+     color: #14931F;
+ }
+
+ .price {
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-end;
+
+     margin-top: 25px;
+ }
+
+ .white-button,
+ .green-button:hover,
+ .green-button:focus {
+     background-color: #DFDBF5;
+     padding: 10px 25px;
+     border-radius: 50px;
+     border: 1px solid gray;
+     border: none;
+     color: gray
+ }
+
+ .price>div:nth-child(1) {
+     font-size: 48px;
+ }
+
+ .block h3 {
+     height: 60px;
+ }
+
+ .content h2 {
+     font-size: 48px;
+     padding: 50px 0;
+ }
+
+ .green-block {
+     background-color: #14931F;
+     color: #fff;
+ }
+
+ .green-block>h3 {
+     color: #fff;
+ }
+
+ footer {
+     padding: 75px;
+     text-align: center;
+     font-size: 18px;
+     background-color: #14931F;
+     color: #fff;
+ }
