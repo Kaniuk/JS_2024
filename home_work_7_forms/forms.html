@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="task_1">
+        <form action="forms.html" method="post">
+            <label for="email">Stay on the saddle!</label>
+            <div class="input-row">
+                <input type="email" name="email" required id="email" placeholder="enter your email"
+                    pattern=".+@example\.com" size="30">
+                <input type="submit" value="GO">
+            </div>
+        </form>
+        <hr>
+    </div>
+    <div class="task_2">
+        <form id="form_2" name="form_2" action="#" method="post">
+            <label>Some form title text</label>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, neque!</p>
+            <div class="input-row_2">
+                <input type="email" name="email" required id="email" placeholder="Email Address..."
+                    pattern=".+@example\.com" size="30">
+                <input type="submit" value="subscribe">
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div class="task_3">
+        <form id="form_3" name="form_3" action="#" method="post">
+            <label>GET IN TOUCH</label>
+            <div class="inputs">
+                <div class="input-row_3">
+                    <input type="text" name="text" required id="name" placeholder="Name" min="3" max="20">
+                    <input type="email" name="email" required id="email" placeholder="Your email"
+                        pattern=".+@example\.com" size="30">
+                </div>
+                <textarea name="" id="" rows="15" cols="50" placeholder="Type your message"></textarea>
+                <input type="submit" value="SEND MESSAGE">
+            </div>
+        </form>
+    </div>
+    <hr>
+</body>
+
+</html>

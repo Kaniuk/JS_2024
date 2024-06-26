@@ -1,0 +1,178 @@
+.task_1 form {
+    text-align: center;
+    color: rgb(151, 151, 151);
+}
+
+.task_1 label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-row input[type="email"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 5px;
+    border: 1px solid rgb(235, 235, 235);
+
+}
+
+.input-row input[type="email"]::placeholder {
+    color: rgb(235, 235, 235);
+}
+
+
+.input-row input[type="submit"] {
+    padding: 9px 23px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(100, 194, 158);
+    border: none;
+    color: aliceblue;
+
+}
+
+.task_2 {
+    background-color: rgb(245, 240, 221);
+    padding: 100px;
+}
+
+#form_2>label,
+#form_2>p {
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 25px;
+
+}
+
+.input-row_2 {
+    text-align: center;
+}
+
+.input-row_2 input[type="email"]::placeholder {
+    font-size: 10px;
+    color: rgb(186, 182, 182);
+
+}
+
+.input-row_2 input[type="email"] {
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 5px;
+    border: 1px solid rgb(235, 235, 235);
+
+}
+
+.input-row_2 input[type="submit"] {
+    padding: 12px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(255, 45, 46);
+    border: none;
+    color: aliceblue;
+
+}
+
+.input-row_2 input[type="submit"]:hover,
+.input-row_2 input[type="submit"]:focus,
+.inputs input[type="submit"]:hover,
+.inputs input[type="submit"]:focus,
+.input-row input[type="submit"]:hover,
+.input-row input[type="submit"]:focus {
+    background-color: black;
+}
+
+#form_2>label {
+    font-size: 25px;
+}
+
+#form_2>p {
+    font-size: 10px;
+}
+
+.task_3 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-row_3 input[type="text"] {
+    padding: 20px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(229, 229, 229);
+    width: 37%;
+
+}
+
+.input-row_3 input[type="email"]::placeholder,
+.input-row_3 input[type="text"]::placeholder,
+textarea::placeholder {
+    font-size: 15px;
+    color: rgb(85, 85, 85);
+    opacity: 70%;
+    font-weight: bold;
+
+}
+
+textarea::placeholder {
+    padding: 20px;
+}
+
+.input-row_3 input[type="email"] {
+    padding: 20px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(229, 229, 229);
+    width: 37%;
+
+}
+
+.input-row_3 {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+
+textarea {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(229, 229, 229);
+    margin-bottom: 40px;
+
+}
+
+.inputs input[type="submit"] {
+    padding: 20px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(255, 45, 46);
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.task_3 label {
+    display: block;
+    font-size: 38px;
+    color: rgb(85, 85, 85);
+    margin: 40px 0;
+}
