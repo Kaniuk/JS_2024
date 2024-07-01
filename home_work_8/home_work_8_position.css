@@ -1,0 +1,132 @@
+.task_3 div {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.task_3 .first_sq {
+    top: 25px;
+    left: 25px;
+    background-color: red;
+    z-index: 1;
+}
+
+.task_3 .second_sq {
+    top: 50px;
+    left: 50px;
+    background-color: yellow;
+    z-index: 2;
+}
+
+.task_3 .third_sq {
+    background-color: black;
+    top: 75px;
+    left: 75px;
+    z-index: 3;
+
+}
+
+.task_2 {
+    margin-top: 250px;
+}
+
+.task_2 ul {
+    list-style: none;
+    font-size: 30px;
+}
+
+ul li {
+    padding: 0 20px;
+    position: relative;
+}
+
+ul li::before {
+    content: " ";
+    font-weight: bold;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(174, 216, 231);
+    left: -10px;
+    top: 30%;
+}
+.task_1{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+}
+.radio_1 {
+    width: 80px;
+    height: 40px;
+    background-color: aquamarine;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.radio_1>div:nth-child(1):before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 43px;
+}
+
+.radio_2 {
+    width: 80px;
+    height: 40px;
+    background-color: aquamarine;
+    position: relative;
+    border-radius: 25px;
+}
+
+.radio_2>div:nth-child(1):before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 43px;
+    border-radius: 25px;
+}
+
+.radio_3 {
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.radio_3>div:nth-child(1):before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 5px;
+}
+
+.radio_4 {
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    position: relative;
+    border-radius: 25px;
+}
+
+.radio_4>div:nth-child(1):before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 5px;
+    border-radius: 25px;
+}
