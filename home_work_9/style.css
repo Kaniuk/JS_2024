@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #22262A;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 1610px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 0;
+    width: 72%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-left: 0;
+}
+
+.logo img {
+    display: block;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.nav-menu a {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #22262A;
+}
+
+.links {
+    display: flex;
+    gap: 44px;
+    margin-right: 0;
+}
+
+.links img {
+    display: block;
+    height: 18px;
+}
+
+/* NAV MENU END */
+.header-content {
+    background-image: url(images/1_1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.header-content span,
+.header-content button,
+.adv-content span,
+.adv-content button {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.header-content h1,
+.adv-content h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header-content button,
+.adv-content button {
+    padding: 10px 22px;
+    color: #fff;
+    border: none;
+    background-color: #22262A;
+}
+
+.header-content>div {
+    width: 42%;
+    padding-top: 400px;
+    padding-bottom: 100px;
+    margin-left: auto;
+}
+
+.header-content-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.header-content-buttons button:hover,
+.header-content button:focus {
+    background-color: darkblue;
+}
+
+/* FNISHED HEADER */
+
+/* MAIN CONTENT PART */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 115px 0;
+}
+
+.wrapper img {
+    margin: 10px;
+}
+
+.catagory-link {
+    background-image: url("images/Mask Group (2).png");
+    filter: brightness(50%);
+
+    height: 584px;
+    width: 35%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 28px 25px;
+    margin-bottom: 10px;
+}
+
+.catagory-name {
+    text-align: center;
+
+    font-size: 18px;
+    background-color: #fff;
+    padding: 7px 23px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    filter: brightness(none) !important;
+
+}
+
+/* First section finished */
+
+/* Second section starts */
+
+.clothes-section {
+    width: 72%;
+    margin: 0 auto;
+}
+
+.description {
+    text-align: center;
+}
+
+.description h3,
+.info-list-item h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.items {
+    display: flex;
+    gap: 22px;
+    margin: 65px 0 110px 0;
+}
+
+.item {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.item img {
+    margin-bottom: 28px;
+}
+
+.item p {
+    font-weight: bold;
+    margin: 3px 0;
+}
+
+.price {
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price div:nth-child(1) {
+    text-decoration: line-through;
+}
+
+.price div:nth-child(2) {
+    color: red;
+
+}
+
+/* Third section starts */
+
+.capitalaze {
+    text-transform: capitalize;
+}
+
+.block {
+    display: flex;
+    gap: 29px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.block #first {
+    margin-top: 87px;
+}
+
+.block #third {
+    margin: -75px -60px 0 0;
+    border: 23px solid #fff;
+}
+
+.border-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.border-img a {
+    display: block;
+    margin-top: 120px;
+    text-transform: uppercase;
+    color: #22262A;
+}
+
+/* Adv-content */
+
+.adv-content {
+    background-image: url("images/17.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.adv-content>div {
+    width: 42%;
+    padding-top: 434px;
+    padding-bottom: 123px;
+    padding-left: 230px;
+}
+
+/* Footer starts */
+footer {
+    background-color: #F2F8FC;
+}
+
+.info {
+    width: 72%;
+    margin: 0 auto;
+    padding-top: 115px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-part {
+    width: 35%;
+}
+
+.address {
+    display: flex;
+    gap: 26px;
+    margin-bottom: 25px 0 15px 0
+}
+
+.email a {
+    color: #22262A;
+}
+
+.social-media img {
+    width: 17px;
+    margin-right: 10px;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.second-part {}
+
+.second-part h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.second-part input {
+    padding: 15px;
+    background-color: white;
+    border: none;
+}
+
+input[type="email"] {
+    width: 471px;
+}
+
+input[type="submit"] {
+    margin-left: -4px;
+    font-weight: bold;
+}
+
+.info-list-items {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 50px 0 110px 0;
+}
+
+.info-list-item ul {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.info-list-item ul li {
+    padding-top: 20px;
+}
+
+.info-list-item h3 {
+    margin-bottom: 27px;
+}
+.info-list-item ul li a{
+    text-decoration: none;
+    color: #22262A;
+}
+
+.rights {
+    background-color: #E7F5F8;
+    padding: 35px;
+    text-align: center;
+}
