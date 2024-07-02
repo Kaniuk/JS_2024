@@ -155,8 +155,6 @@ header nav {
     border: none;
     text-transform: uppercase;
     font-weight: bold;
-    filter: brightness(none) !important;
-
 }
 
 /* First section finished */
